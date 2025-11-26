@@ -121,17 +121,5 @@ $$ \sigma_{\text{tot}} = \mathbb{C}_{\text{eff}}(d) \colon \big( \varepsilon(\ma
 
 This framework allows controlled testing of **microscale coupling mechanisms** in nanoporous materials.
 
----
 
-## License
-MIT (open-source, free to use)
 
----
-
-If you want, I can:
-✔ add installation & run instructions  
-✔ include minimal code samples  
-✔ create a documentation folder for each module  
-✔ help prepare a figure-based version once results are ready  
-
-Just tell me what you’d like next!
