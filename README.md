@@ -60,7 +60,7 @@ This part is purely **Python/NumPy**, no FEM yet:
 - Damage field at \(\phi = 0.5\):  
   `![Damage at φ = 0.5](figures/damage_phi0.5.png)`
 
-
+(Adjust `figures/...` to your actual paths.)
 
 ---
 
@@ -132,7 +132,6 @@ In FEniCSx:
 **Figures to add**
 
 - Homogeneous vs porous Von Mises stress:  
-  `![Von Mises stress: homogeneous](figures/vonmises_elastic_hom.png)`
   `![Von Mises stress: porous](figures/vonmises_elastic_porous.png)`
 
 ---
