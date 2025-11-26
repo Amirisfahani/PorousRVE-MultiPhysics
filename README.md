@@ -66,7 +66,7 @@ Outputs: plastic strain and updated stress
 
 ## 4️⃣ Diffusion with damage-dependent transport
 
-Transient diffusion PDE:
+Damage increase diffusion coefficient:
 
 
 
