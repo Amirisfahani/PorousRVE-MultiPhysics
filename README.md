@@ -86,29 +86,16 @@ Output: concentration field \(c(x,t)\)
 
 Swelling strain due to concentration:
 
-$$
-\boldsymbol{\varepsilon}_{\text{sw}}(c) = \beta c \mathbf{I}
-$$
+$$ \varepsilon_{\text{sw}}(c) = \beta \, c \, \mathbf{I} $$
 
-Total strain decomposition:
+Total strain (additive decomposition):
 
-$$
-\boldsymbol{\varepsilon}_{\text{tot}}
-=
-\boldsymbol{\varepsilon}(\mathbf{u})
-- \boldsymbol{\varepsilon}_{\text{sw}}(c)
-$$
+$$ \varepsilon_{\text{tot}} = \varepsilon(\mathbf{u}) - \varepsilon_{\text{sw}}(c) $$
 
-Total stress:
+Constitutive relation with swelling:
 
-$$
-\boldsymbol{\sigma}_{\text{tot}}
-= \mathbb{C}_{\text{eff}}(d)
-:\left(\boldsymbol{\varepsilon}(\mathbf{u})
-- \beta c \mathbf{I}\right)
-$$
+$$ \sigma_{\text{tot}} = \mathbb{C}_{\text{eff}}(d) \colon \big( \varepsilon(\mathbf{u}) - \beta \, c \, \mathbf{I} \big) $$
 
-This creates internal stresses even without external load.
 
 ---
 
