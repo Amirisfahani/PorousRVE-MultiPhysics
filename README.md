@@ -49,11 +49,6 @@ $$
 
 ## 3️⃣ J2 Plasticity (Isotropic Hardening)
 
-Yield condition (von Mises):
-
-$$
-\sigma_{\text{eq}} = \sqrt{\frac{3}{2}\boldsymbol{s}:\boldsymbol{s}}
-$$
 
 Hardening rule:
 
@@ -73,13 +68,7 @@ Outputs: plastic strain and updated stress
 
 Transient diffusion PDE:
 
-$$
-\frac{\partial c}{\partial t}
-=
-\nabla \cdot \left( D(d)\nabla c\right)
-$$
 
-with:
 
 $$
 D(d) = D_{\text{matrix}} +
