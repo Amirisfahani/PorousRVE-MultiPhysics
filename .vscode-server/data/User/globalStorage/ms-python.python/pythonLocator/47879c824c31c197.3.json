@@ -1,0 +1,48 @@
+{
+  "environment": {
+    "executable": "/dolfinx-env/bin/python",
+    "prefix": "/dolfinx-env",
+    "version": "3.12.3.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/dolfinx-env/bin/python",
+      "/dolfinx-env/bin/python3",
+      "/dolfinx-env/bin/python3.12"
+    ]
+  },
+  "symlinks": [
+    [
+      "/dolfinx-env/bin/python",
+      {
+        "secs_since_epoch": 1755193641,
+        "nanos_since_epoch": 0
+      },
+      {
+        "secs_since_epoch": 1763999439,
+        "nanos_since_epoch": 966212004
+      }
+    ],
+    [
+      "/dolfinx-env/bin/python3",
+      {
+        "secs_since_epoch": 1755193641,
+        "nanos_since_epoch": 0
+      },
+      {
+        "secs_since_epoch": 1763999439,
+        "nanos_since_epoch": 966212004
+      }
+    ],
+    [
+      "/dolfinx-env/bin/python3.12",
+      {
+        "secs_since_epoch": 1755193641,
+        "nanos_since_epoch": 0
+      },
+      {
+        "secs_since_epoch": 1763999439,
+        "nanos_since_epoch": 966212004
+      }
+    ]
+  ]
+}

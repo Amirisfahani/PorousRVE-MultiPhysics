@@ -1,0 +1,7 @@
+[safe]
+	directory = /Users/amir/project
+[http]
+	version = HTTP/1.1
+	maxRequests = 2
+[credential]
+	helper = "!f() { /root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node /tmp/vscode-remote-containers-7de7328a-0208-4456-9788-35320a677407.js git-credential-helper $*; }; f"

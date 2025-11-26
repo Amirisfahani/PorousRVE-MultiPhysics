@@ -1,0 +1,7 @@
+{
+	"github.copilot.chat.codeGeneration.instructions": [
+		{
+			"text": "This workspace is in a dev container running on \"Ubuntu 24.04.3 LTS\".\n\nUse `\"$BROWSER\" <url>` to open a webpage in the host's default browser.\n\nSome of the command line tools available on the `PATH`: `apt`, `dpkg`, `git`, `wget`, `ssh`, `scp`, `gpg`, `ps`, `top`, `find`, `grep`, `tar`, `gzip`, `bzip2`, `xz`"
+		}
+	]
+}

@@ -1,0 +1,88 @@
+2025-11-25 11:19:49.958 [info] Native locator: Refresh started
+2025-11-25 11:19:50.012 [info] Native locator: Refresh started
+2025-11-25 11:19:50.386 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2025-11-25 11:19:50.395 [info] Native locator: Refresh finished in 528 ms
+2025-11-25 11:19:50.398 [info] > pyenv which python
+2025-11-25 11:19:50.398 [info] cwd: .
+2025-11-25 11:19:50.429 [info] Python interpreter path: /dolfinx-env/bin/python
+2025-11-25 11:19:51.367 [info] Starting Pylance language server.
+2025-11-25 11:21:08.092 [info] CreateEnv Trigger - Skipping for /root/Model/RVEModel.py
+2025-11-25 11:21:08.095 [info] Send text to terminal: source /dolfinx-env/bin/activate
+2025-11-25 11:21:08.228 [info] Discover tests for workspace name: root - uri: /root/Model/RVEModel.py
+2025-11-25 11:21:24.485 [info] Native locator: Refresh started
+2025-11-25 11:21:24.528 [info] Native locator: Refresh finished in 45 ms
+2025-11-25 11:24:22.004 [info] Discover tests for workspace name: root - uri: /root/Model/RVEModel.py
+2025-11-25 11:46:00.044 [info] Discover tests for workspace name: root - uri: /root/Model/RVEm.py
+2025-11-25 11:46:14.718 [info] Discover tests for workspace name: root - uri: /root/Model/RVEm.py
+2025-11-25 11:46:30.011 [info] Discover tests for workspace name: root - uri: /root/Model/RVEm.py
+2025-11-25 11:54:17.668 [info] Discover tests for workspace name: root - uri: /root/Model/RVEm.py
+2025-11-25 11:57:02.099 [info] Discover tests for workspace name: root - uri: /root/Model/RVEm.py
+2025-11-25 11:57:13.239 [info] Discover tests for workspace name: root - uri: /root/Model/RVEModel.py
+2025-11-25 13:21:52.495 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:23:46.512 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:27:08.104 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:27:15.162 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:28:21.605 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:32:27.194 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:34:05.784 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:36:02.016 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:37:37.740 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:38:14.146 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:38:40.995 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:38:55.972 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:39:17.996 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:39:44.909 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:40:13.497 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:40:29.906 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:40:48.063 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:41:29.055 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:42:25.698 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:43:18.924 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:43:38.348 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:44:13.627 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:44:24.671 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:44:42.752 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:45:02.176 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:45:21.361 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:46:00.748 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:46:21.102 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:46:25.916 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:46:44.799 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:47:20.063 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:47:24.219 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:47:52.795 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:47:55.909 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:48:15.278 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 13:48:17.714 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 14:01:13.247 [info] Discover tests for workspace name: root - uri: /root/Model/rveElasticityDamage.py
+2025-11-25 14:27:36.319 [info] Discover tests for workspace name: root - uri: /root/Model/revElasticityDamage.py
+2025-11-25 14:29:30.542 [info] Discover tests for workspace name: root - uri: /root/Model/revElasticityDamage.py
+2025-11-25 14:30:04.608 [info] Discover tests for workspace name: root - uri: /root/Model/revElasticityDamage.py
+2025-11-25 14:49:31.730 [info] Discover tests for workspace name: root - uri: /root/Model/revElasticityDamage.py
+2025-11-25 15:37:04.629 [info] Discover tests for workspace name: root - uri: /root/Model/rveElastoplastic_J2.py
+2025-11-25 15:37:20.985 [info] Discover tests for workspace name: root - uri: /root/Model/rveElastoplastic_J2.py
+2025-11-25 16:04:14.671 [info] Discover tests for workspace name: root - uri: /root/Model/rveElastoplastic_J2.py
+2025-11-25 16:04:20.052 [info] Discover tests for workspace name: root - uri: /root/Model/rveElastoplastic_J2.py
+2025-11-25 16:04:27.029 [info] Discover tests for workspace name: root - uri: /root/Model/rveElastoplastic_J2.py
+2025-11-25 16:07:44.758 [info] Discover tests for workspace name: root - uri: /root/Model/rveElastoplastic_J2.py
+2025-11-25 16:07:47.299 [info] Discover tests for workspace name: root - uri: /root/Model/rveElastoplastic_J2.py
+2025-11-25 16:07:57.249 [info] Discover tests for workspace name: root - uri: /root/Model/rveElastoplastic_J2.py
+2025-11-25 16:39:29.333 [info] Discover tests for workspace name: root - uri: /root/Model/hydrogenDiffusion.py
+2025-11-25 16:39:59.926 [info] Discover tests for workspace name: root - uri: /root/Model/hydrogenDiffusion.py
+2025-11-25 16:48:20.824 [info] Discover tests for workspace name: root - uri: /root/Model/hydrogenDiffusion.py
+2025-11-25 16:48:34.280 [info] Discover tests for workspace name: root - uri: /root/Model/hydrogenDiffusion.py
+2025-11-25 16:54:22.826 [info] Discover tests for workspace name: root - uri: /root/Model/diffusion.py
+2025-11-25 16:55:11.779 [info] Discover tests for workspace name: root - uri: /root/Model/diffusion.py
+2025-11-25 16:58:43.387 [info] Discover tests for workspace name: root - uri: /root/Model/diffusion.py
+2025-11-25 17:03:44.120 [info] Discover tests for workspace name: root - uri: /root/Model/diffusion.py
+2025-11-25 17:03:48.668 [info] Discover tests for workspace name: root - uri: /root/Model/diffusion.py
+2025-11-25 18:59:44.845 [info] Discover tests for workspace name: root - uri: /root/Model/coupling.py
+2025-11-25 18:59:58.783 [info] Discover tests for workspace name: root - uri: /root/Model/revElasticityDamage.py
+2025-11-25 19:01:20.214 [info] Discover tests for workspace name: root - uri: /root/Model/coupling.py
+2025-11-25 19:01:24.283 [info] Discover tests for workspace name: root - uri: /root/Model/coupling.py
+2025-11-25 19:02:49.641 [info] Discover tests for workspace name: root - uri: /root/Model/coupling.py
+2025-11-25 19:04:36.570 [info] Discover tests for workspace name: root - uri: /root/Model/coupling.py
+2025-11-26 04:51:32.320 [info] Discover tests for workspace name: root - uri: /root/Model/revElasticityDamage.py
+2025-11-26 04:52:34.692 [info] Discover tests for workspace name: root - uri: /root/Model/revElasticityDamage.py
+2025-11-26 04:52:59.510 [info] Discover tests for workspace name: root - uri: /root/Model/revElasticityDamage.py
+2025-11-26 09:27:35.950 [info] Discover tests for workspace name: root - uri: /root/Model/coupling.py

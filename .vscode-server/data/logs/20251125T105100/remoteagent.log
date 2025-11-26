@@ -1,0 +1,95 @@
+2025-11-25 10:51:00.251 [info] 
+
+
+
+
+2025-11-25 10:51:00.269 [info] Installing extensions...
+2025-11-25 10:51:00.271 [info] Extension host agent started.
+2025-11-25 10:51:00.301 [debug] Error while reading the extension cache file: /root/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache Unable to read file '/root/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache' (Error: Unable to resolve nonexistent file '/root/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache')
+2025-11-25 10:51:00.302 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2025-11-25 10:51:00.331 [info] [127.0.0.1][c55aa08f][ManagementConnection] New connection established.
+2025-11-25 10:51:00.333 [debug] ComputeTargetPlatform: linux-arm64
+2025-11-25 10:51:00.357 [info] Log level changed to info
+2025-11-25 10:51:00.381 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode-server/extensions
+2025-11-25 10:51:00.489 [info] [127.0.0.1][d0df7bc6][ExtensionHostConnection] New connection established.
+2025-11-25 10:51:00.493 [info] [127.0.0.1][d0df7bc6][ExtensionHostConnection] <334> Launched Extension Host Process.
+2025-11-25 10:51:01.632 [info] Installing extension 'github.copilot'...
+2025-11-25 10:51:01.671 [info] Installing extension 'github.copilot-chat'...
+2025-11-25 10:51:01.674 [info] Installing extension 'ms-python.python'...
+2025-11-25 10:51:01.689 [info] Installing extension 'ms-python.vscode-pylance'...
+2025-11-25 10:51:01.697 [info] Installing extension 'ms-python.debugpy'...
+2025-11-25 10:51:01.701 [info] Getting Manifest... ms-python.python
+2025-11-25 10:51:01.701 [info] Getting Manifest... ms-python.debugpy
+2025-11-25 10:51:02.113 [info] Getting Manifest... ms-python.vscode-pylance
+2025-11-25 10:51:02.130 [info] Getting Manifest... github.copilot-chat
+2025-11-25 10:51:02.166 [info] Getting Manifest... github.copilot
+2025-11-25 10:51:02.199 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"}}
+2025-11-25 10:51:02.200 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"}}
+2025-11-25 10:51:02.200 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"}}
+2025-11-25 10:51:02.200 [info] Installing extension: github.copilot-chat {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"}}
+2025-11-25 10:51:02.201 [info] Installing extension: github.copilot {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"}}
+2025-11-25 10:51:02.735 [info] Getting Manifest... github.copilot
+2025-11-25 10:51:03.103 [info] Getting Manifest... ms-python.python
+2025-11-25 10:51:03.119 [info] Getting Manifest... ms-python.vscode-pylance
+2025-11-25 10:51:03.151 [info] Getting Manifest... ms-python.python
+2025-11-25 10:51:03.163 [info] Getting Manifest... ms-python.debugpy
+2025-11-25 10:51:03.595 [info] Getting Manifest... github.copilot-chat
+2025-11-25 10:51:03.951 [info] Getting Manifest... ms-python.vscode-pylance
+2025-11-25 10:51:03.963 [info] Downloaded extension to file:///root/.vscode-server/extensionsCache/0fa4ce26-c7c1-4275-918c-836d85c9e4c5
+2025-11-25 10:51:03.975 [info] Installing extension: github.copilot-chat {"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"}}
+2025-11-25 10:51:04.066 [info] Getting Manifest... ms-python.debugpy
+2025-11-25 10:51:04.452 [info] Skipping the packed extension as it cannot be installed ms-python.vscode-python-envs Can't install 'ms-python.vscode-python-envs' extension because it is not compatible with the current version of Visual Studio Code (version 1.99.3).
+2025-11-25 10:51:04.482 [info] Getting Manifest... github.copilot
+2025-11-25 10:51:04.535 [info] Waiting for already requested installing extension github.copilot github.copilot-chat file:///root/.vscode-server/extensions/extensions.json
+2025-11-25 10:51:05.078 [info] Skipping the packed extension as it cannot be installed ms-python.vscode-python-envs Can't install 'ms-python.vscode-python-envs' extension because it is not compatible with the current version of Visual Studio Code (version 1.99.3).
+2025-11-25 10:51:05.296 [info] Extracted extension to file:///root/.vscode-server/extensions/github.copilot-chat-0.26.7: github.copilot-chat
+2025-11-25 10:51:05.354 [info] Renamed to /root/.vscode-server/extensions/github.copilot-chat-0.26.7
+2025-11-25 10:51:05.398 [info] Skipping the packed extension as it cannot be installed ms-python.vscode-python-envs Can't install 'ms-python.vscode-python-envs' extension because it is not compatible with the current version of Visual Studio Code (version 1.99.3).
+2025-11-25 10:51:06.374 [info] Downloaded extension to file:///root/.vscode-server/extensionsCache/8341d884-15ab-4ba5-bd2c-ccb8e5dc6dab
+2025-11-25 10:51:06.392 [info] Installing extension: github.copilot {"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/root/.vscode-server/extensions/extensions.json","external":"file:///root/.vscode-server/extensions/extensions.json","path":"/root/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"}}
+2025-11-25 10:51:07.479 [info] Extension signature verification result for ms-python.debugpy: Success. Internal Code: 0. Executed: true. Duration: 840ms.
+2025-11-25 10:51:07.792 [info] Getting Manifest... github.copilot-chat
+2025-11-25 10:51:07.928 [info] Waiting for already requested installing extension github.copilot-chat github.copilot file:///root/.vscode-server/extensions/extensions.json
+2025-11-25 10:51:08.044 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 725ms.
+2025-11-25 10:51:08.612 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-arm64: ms-python.debugpy
+2025-11-25 10:51:08.975 [info] Renamed to /root/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-arm64
+2025-11-25 10:51:09.521 [info] Extracted extension to file:///root/.vscode-server/extensions/github.copilot-1.372.0: github.copilot
+2025-11-25 10:51:09.528 [info] Renamed to /root/.vscode-server/extensions/github.copilot-1.372.0
+2025-11-25 10:51:09.550 [info] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 1242ms.
+2025-11-25 10:51:12.031 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.python-2025.18.0-linux-arm64: ms-python.python
+2025-11-25 10:51:12.099 [info] Renamed to /root/.vscode-server/extensions/ms-python.python-2025.18.0-linux-arm64
+2025-11-25 10:51:12.471 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Internal Code: 0. Executed: true. Duration: 670ms.
+2025-11-25 10:51:16.400 [info] Extracted extension to file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.6.2: ms-python.vscode-pylance
+2025-11-25 10:51:16.611 [info] Renamed to /root/.vscode-server/extensions/ms-python.vscode-pylance-2025.6.2
+2025-11-25 10:51:16.627 [info] Extension installed successfully: github.copilot-chat file:///root/.vscode-server/extensions/extensions.json
+2025-11-25 10:51:16.627 [info] Extension installed successfully: ms-python.debugpy file:///root/.vscode-server/extensions/extensions.json
+2025-11-25 10:51:16.627 [info] Extension installed successfully: github.copilot file:///root/.vscode-server/extensions/extensions.json
+2025-11-25 10:51:16.627 [info] Extension installed successfully: ms-python.python file:///root/.vscode-server/extensions/extensions.json
+2025-11-25 10:51:16.627 [info] Extension installed successfully: ms-python.vscode-pylance file:///root/.vscode-server/extensions/extensions.json
+2025-11-25 10:51:16.631 [info] Finished waiting for already requested installing extension github.copilot github.copilot-chat file:///root/.vscode-server/extensions/extensions.json
+2025-11-25 10:51:16.631 [info] Finished waiting for already requested installing extension github.copilot-chat github.copilot file:///root/.vscode-server/extensions/extensions.json
+2025-11-25 10:51:16.631 [info] Extension 'github.copilot-chat' v0.26.7 was successfully installed.
+2025-11-25 10:51:16.631 [info] Extension 'ms-python.debugpy' v2025.16.0 was successfully installed.
+2025-11-25 10:51:16.631 [info] Extension 'github.copilot' v1.372.0 was successfully installed.
+2025-11-25 10:51:16.631 [info] Extension 'ms-python.python' v2025.18.0 was successfully installed.
+2025-11-25 10:51:16.631 [info] Extension 'ms-python.vscode-pylance' v2025.6.2 was successfully installed.
+2025-11-25 10:51:16.631 [info] Extension installed successfully: github.copilot-chat file:///root/.vscode-server/extensions/extensions.json
+2025-11-25 10:51:16.632 [info] Extension installed successfully: github.copilot file:///root/.vscode-server/extensions/extensions.json
+2025-11-25 12:05:24.644 [info] [127.0.0.1][c55aa08f][ManagementConnection] The client has reconnected.
+2025-11-25 12:05:29.699 [info] [127.0.0.1][d0df7bc6][ExtensionHostConnection] The client has reconnected.
+2025-11-25 14:24:10.848 [info] [127.0.0.1][c55aa08f][ManagementConnection] The client has reconnected.
+2025-11-25 14:24:18.418 [info] [127.0.0.1][d0df7bc6][ExtensionHostConnection] The client has reconnected.
+2025-11-25 15:17:17.719 [info] [127.0.0.1][c55aa08f][ManagementConnection] The client has reconnected.
+2025-11-25 15:17:17.792 [info] [127.0.0.1][d0df7bc6][ExtensionHostConnection] The client has reconnected.
+2025-11-25 15:25:13.103 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-11-25 15:25:22.041 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-11-25 17:13:38.801 [info] [127.0.0.1][c55aa08f][ManagementConnection] The client has reconnected.
+2025-11-25 17:13:44.406 [info] [127.0.0.1][d0df7bc6][ExtensionHostConnection] The client has reconnected.
+2025-11-25 20:14:52.461 [info] [127.0.0.1][c55aa08f][ManagementConnection] The client has reconnected.
+2025-11-25 20:14:58.054 [info] [127.0.0.1][d0df7bc6][ExtensionHostConnection] The client has reconnected.
+2025-11-25 21:26:30.475 [info] [127.0.0.1][c55aa08f][ManagementConnection] The client has reconnected.
+2025-11-25 21:26:36.256 [info] [127.0.0.1][d0df7bc6][ExtensionHostConnection] The client has reconnected.
+2025-11-25 22:14:00.857 [info] [127.0.0.1][c55aa08f][ManagementConnection] The client has reconnected.
+2025-11-25 22:14:06.706 [info] [127.0.0.1][d0df7bc6][ExtensionHostConnection] The client has reconnected.
+2025-11-26 05:10:19.906 [info] [127.0.0.1][c55aa08f][ManagementConnection] The client has reconnected.
+2025-11-26 05:10:24.793 [info] [127.0.0.1][d0df7bc6][ExtensionHostConnection] The client has reconnected.

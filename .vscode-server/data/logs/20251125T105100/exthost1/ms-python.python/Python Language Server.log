@@ -1,0 +1,127 @@
+2025-11-25 11:19:51.084 [info] (Client) Pylance async client (2025.6.2) started with python extension (2025.18.0)
+2025-11-25 11:19:51.358 [info] [Info  - 11:19:51 AM] (15776) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.6.2/dist
+2025-11-25 11:19:51.358 [info] [Info  - 11:19:51 AM] (15776) Pylance language server 2025.6.2 (pyright version 1.1.402, commit 9496ae00) starting
+2025-11-25 11:19:51.358 [info] [Info  - 11:19:51 AM] (15776) Starting service instance "root" for workspace "/root"
+2025-11-25 11:19:51.446 [info] [Info  - 11:19:51 AM] (15776) Setting environmentName for service "root": "3.12.3 (dolfinx-env venv)"
+2025-11-25 11:19:51.448 [info] [Info  - 11:19:51 AM] (15776) Setting pythonPath for service "root": "/dolfinx-env/bin/python"
+2025-11-25 11:19:51.448 [info] [Info  - 11:19:51 AM] (15776) No include entries specified; assuming /root
+2025-11-25 11:19:51.448 [info] [Info  - 11:19:51 AM] (15776) Auto-excluding **/node_modules
+2025-11-25 11:19:51.448 [info] [Info  - 11:19:51 AM] (15776) Auto-excluding **/__pycache__
+2025-11-25 11:19:51.448 [info] [Info  - 11:19:51 AM] (15776) Auto-excluding **/.*
+2025-11-25 11:19:51.464 [info] [Info  - 11:19:51 AM] (15776) Assuming Python version 3.12.3.final.0
+2025-11-25 11:19:51.521 [info] [Info  - 11:19:51 AM] (15776) Found 1 source file
+2025-11-25 11:19:51.556 [info] [Info  - 11:19:51 AM] (15776) Setting environmentName for service "root": "3.12.3 (dolfinx-env venv)"
+2025-11-25 11:19:51.556 [info] [Info  - 11:19:51 AM] (15776) Setting pythonPath for service "root": "/dolfinx-env/bin/python"
+2025-11-25 11:19:51.556 [info] [Info  - 11:19:51 AM] (15776) No include entries specified; assuming /root
+2025-11-25 11:19:51.556 [info] [Info  - 11:19:51 AM] (15776) Auto-excluding **/node_modules
+2025-11-25 11:19:51.556 [info] [Info  - 11:19:51 AM] (15776) Auto-excluding **/__pycache__
+2025-11-25 11:19:51.556 [info] [Info  - 11:19:51 AM] (15776) Auto-excluding **/.*
+2025-11-25 11:19:51.593 [info] [Info  - 11:19:51 AM] (15776) Assuming Python version 3.12.3.final.0
+2025-11-25 11:19:51.641 [info] [Info  - 11:19:51 AM] (15776) Found 1 source file
+2025-11-25 11:19:52.203 [info] [Info  - 11:19:52 AM] (15776) BG: Priority queue background worker(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.6.2/dist
+2025-11-25 11:19:52.203 [info] [Info  - 11:19:52 AM] (15776) BG: Priority queue background worker(2) started
+2025-11-25 11:19:52.347 [info] [Info  - 11:19:52 AM] (15776) BG: Indexer background runner(3) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.6.2/dist (index)
+2025-11-25 11:19:52.347 [info] [Info  - 11:19:52 AM] (15776) BG: Indexing(3) started
+2025-11-25 11:19:53.030 [info] [Info  - 11:19:53 AM] (15776) BG: scanned(3) 170 files over 1 exec env
+2025-11-25 11:19:55.338 [info] [Info  - 11:19:55 AM] (15776) BG: [IDX(3)] Long operation: index execution environment file:///root (2128ms)
+2025-11-25 11:19:55.348 [info] [Info  - 11:19:55 AM] (15776) BG: [IDX(3)] Long operation: index packages file:///root (2144ms)
+2025-11-25 11:19:55.348 [info] [Info  - 11:19:55 AM] (15776) BG: indexed(3) 170 files over 1 exec env
+2025-11-25 11:19:55.472 [info] [Info  - 11:19:55 AM] (15776) BG: Indexing finished(3).
+2025-11-25 11:24:49.564 [info] [Info  - 11:24:49 AM] (15776) BG: Indexer background runner(4) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.6.2/dist (refresh)
+2025-11-25 11:24:49.564 [info] [Info  - 11:24:49 AM] (15776) BG: Indexing(4) started
+2025-11-25 11:24:49.892 [info] [Info  - 11:24:49 AM] (15776) BG: scanned(4) 174 files over 1 exec env
+2025-11-25 11:24:50.196 [info] [Info  - 11:24:50 AM] (15776) BG: indexed(4) 174 files over 1 exec env
+2025-11-25 11:24:50.236 [info] [Info  - 11:24:50 AM] (15776) BG: Indexing finished(4).
+2025-11-25 11:26:27.829 [info] [Info  - 11:26:27 AM] (15776) BG: Indexer background runner(5) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.6.2/dist (refresh)
+2025-11-25 11:26:27.830 [info] [Info  - 11:26:27 AM] (15776) BG: Indexing(5) started
+2025-11-25 11:26:28.170 [info] [Info  - 11:26:28 AM] (15776) BG: scanned(5) 175 files over 1 exec env
+2025-11-25 11:26:28.328 [info] [Info  - 11:26:28 AM] (15776) BG: indexed(5) 175 files over 1 exec env
+2025-11-25 11:26:28.369 [info] [Info  - 11:26:28 AM] (15776) BG: Indexing finished(5).
+2025-11-25 11:45:30.218 [info] [Info  - 11:45:30 AM] (15776) Found 2 source files
+2025-11-25 11:45:47.612 [info] [Info  - 11:45:47 AM] (15776) Starting service instance "<default>" for workspace ""
+2025-11-25 11:45:47.656 [info] [Info  - 11:45:47 AM] (15776) Setting environmentName for service "<default>": "3.12.3 (dolfinx-env venv)"
+2025-11-25 11:45:47.657 [info] [Info  - 11:45:47 AM] (15776) Setting pythonPath for service "<default>": "/dolfinx-env/bin/python"
+2025-11-25 11:45:47.657 [info] [Info  - 11:45:47 AM] (15776) No include entries specified; assuming /<default workspace root>
+2025-11-25 11:45:47.658 [info] [Info  - 11:45:47 AM] (15776) Auto-excluding **/node_modules
+2025-11-25 11:45:47.658 [info] [Info  - 11:45:47 AM] (15776) Auto-excluding **/__pycache__
+2025-11-25 11:45:47.658 [info] [Info  - 11:45:47 AM] (15776) Auto-excluding **/.*
+2025-11-25 11:45:47.678 [info] [Info  - 11:45:47 AM] (15776) Assuming Python version 3.12.3.final.0
+2025-11-25 11:45:47.863 [info] [Error - 11:45:47 AM] (15776) File or directory "/<default workspace root>" does not exist.
+2025-11-25 11:45:47.863 [info] [Info  - 11:45:47 AM] (15776) No source files found.
+2025-11-25 11:45:48.520 [info] [Info  - 11:45:48 AM] (15776) BG: Priority queue background worker(7) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.6.2/dist
+2025-11-25 11:45:48.520 [info] [Info  - 11:45:48 AM] (15776) BG: Priority queue background worker(7) started
+2025-11-25 13:02:50.625 [info] [Info  - 1:02:50 PM] (15776) Found 1 source file
+2025-11-25 13:21:44.573 [info] [Info  - 1:21:44 PM] (15776) Found 2 source files
+2025-11-25 14:27:29.917 [info] [Info  - 2:27:29 PM] (15776) Found 3 source files
+2025-11-25 14:30:16.408 [info] [Info  - 2:30:16 PM] (15776) virtual workspace: vscode-chat-code-block://f9d74e67-7db2-4d75-94c9-436281e45ae3/
+2025-11-25 14:30:16.409 [info] [Info  - 2:30:16 PM] (15776) Starting service instance "<default>" for workspace "vscode-chat-code-block://f9d74e67-7db2-4d75-94c9-436281e45ae3/"
+2025-11-25 14:30:16.530 [info] [Info  - 2:30:16 PM] (15776) Setting environmentName for service "<default>": "3.12.3 (dolfinx-env venv)"
+2025-11-25 14:30:16.530 [info] [Info  - 2:30:16 PM] (15776) No include entries specified; assuming vscode-chat-code-block://f9d74e67-7db2-4d75-94c9-436281e45ae3/
+2025-11-25 14:30:16.531 [info] [Info  - 2:30:16 PM] (15776) Auto-excluding **/node_modules
+2025-11-25 14:30:16.531 [info] [Info  - 2:30:16 PM] (15776) Auto-excluding **/__pycache__
+2025-11-25 14:30:16.531 [info] [Info  - 2:30:16 PM] (15776) Auto-excluding **/.*
+2025-11-25 14:30:16.555 [info] [Info  - 2:30:16 PM] (15776) Assuming Python version 3.12.3.final.0
+2025-11-25 14:30:16.657 [info] [Error - 2:30:16 PM] (15776) File or directory "vscode-chat-code-block://f9d74e67-7db2-4d75-94c9-436281e45ae3/" does not exist.
+2025-11-25 14:30:16.657 [info] [Info  - 2:30:16 PM] (15776) No source files found.
+2025-11-25 15:25:13.476 [info] [Info  - 3:25:13 PM] (15776) Found 4 source files
+2025-11-25 15:25:22.620 [info] [Info  - 3:25:22 PM] (15776) Found 4 source files
+2025-11-25 15:25:23.575 [info] [Info  - 3:25:23 PM] (15776) Found 4 source files
+2025-11-25 15:36:37.649 [info] [Info  - 3:36:37 PM] (15776) Found 5 source files
+2025-11-25 16:31:10.365 [info] [Info  - 4:31:10 PM] (15776) Found 6 source files
+2025-11-25 16:48:48.074 [info] [Info  - 4:48:48 PM] (15776) Found 5 source files
+2025-11-25 16:54:19.171 [info] [Info  - 4:54:19 PM] (15776) Found 6 source files
+2025-11-25 18:58:49.597 [info] [Info  - 6:58:49 PM] (15776) Found 7 source files
+2025-11-25 18:58:54.510 [info] [Info  - 6:58:54 PM] (15776) BG: [BG(1)] Long operation: checking: file:///root/Model/rveElasticityDamage.py (2680ms)
+2025-11-25 18:58:54.636 [info] [Info  - 6:58:54 PM] (15776) BG: [BG(1)] Long operation: analyzing: file:///root/Model/rveElasticityDamage.py (2687ms)
+2025-11-25 18:59:58.880 [info] [Info  - 6:59:58 PM] (15776) Found 7 source files
+2025-11-26 04:51:37.466 [info] [Info  - 4:51:37 AM] (15776) virtual workspace: vscode-chat-code-block://9ab6db43-ac5b-4b29-98bf-78f80ffa8b39/
+2025-11-26 04:51:37.468 [info] [Info  - 4:51:37 AM] (15776) Starting service instance "<default>" for workspace "vscode-chat-code-block://9ab6db43-ac5b-4b29-98bf-78f80ffa8b39/"
+2025-11-26 04:51:37.571 [info] [Info  - 4:51:37 AM] (15776) Setting environmentName for service "<default>": "3.12.3 (dolfinx-env venv)"
+2025-11-26 04:51:37.572 [info] [Info  - 4:51:37 AM] (15776) No include entries specified; assuming vscode-chat-code-block://9ab6db43-ac5b-4b29-98bf-78f80ffa8b39/
+2025-11-26 04:51:37.573 [info] [Info  - 4:51:37 AM] (15776) Auto-excluding **/node_modules
+2025-11-26 04:51:37.574 [info] [Info  - 4:51:37 AM] (15776) Auto-excluding **/__pycache__
+2025-11-26 04:51:37.574 [info] [Info  - 4:51:37 AM] (15776) Auto-excluding **/.*
+2025-11-26 04:51:37.613 [info] [Info  - 4:51:37 AM] (15776) Assuming Python version 3.12.3.final.0
+2025-11-26 04:51:37.765 [info] [Error - 4:51:37 AM] (15776) File or directory "vscode-chat-code-block://9ab6db43-ac5b-4b29-98bf-78f80ffa8b39/" does not exist.
+2025-11-26 04:51:37.765 [info] [Info  - 4:51:37 AM] (15776) No source files found.
+2025-11-26 09:27:11.238 [info] [Info  - 9:27:11 AM] (15776) Setting environmentName for service "<default>": "3.12.3 (dolfinx-env venv)"
+2025-11-26 09:27:11.238 [info] [Info  - 9:27:11 AM] (15776) Setting pythonPath for service "<default>": "/dolfinx-env/bin/python"
+2025-11-26 09:27:11.238 [info] [Info  - 9:27:11 AM] (15776) No include entries specified; assuming /<default workspace root>
+2025-11-26 09:27:11.238 [info] [Info  - 9:27:11 AM] (15776) Auto-excluding **/node_modules
+2025-11-26 09:27:11.238 [info] [Info  - 9:27:11 AM] (15776) Auto-excluding **/__pycache__
+2025-11-26 09:27:11.238 [info] [Info  - 9:27:11 AM] (15776) Auto-excluding **/.*
+2025-11-26 09:27:11.322 [info] [Info  - 9:27:11 AM] (15776) Assuming Python version 3.12.3.final.0
+2025-11-26 09:27:14.160 [info] [Error - 9:27:14 AM] (15776) File or directory "/<default workspace root>" does not exist.
+2025-11-26 09:27:14.498 [info] [Info  - 9:27:14 AM] (15776) No source files found.
+2025-11-26 09:27:14.673 [info] [Info  - 9:27:14 AM] (15776) Setting environmentName for service "root": "3.12.3 (dolfinx-env venv)"
+2025-11-26 09:27:14.724 [info] [Info  - 9:27:14 AM] (15776) Setting pythonPath for service "root": "/dolfinx-env/bin/python"
+2025-11-26 09:27:14.740 [info] [Info  - 9:27:14 AM] (15776) No include entries specified; assuming /root
+2025-11-26 09:27:14.740 [info] [Info  - 9:27:14 AM] (15776) Auto-excluding **/node_modules
+2025-11-26 09:27:14.746 [info] [Info  - 9:27:14 AM] (15776) Auto-excluding **/__pycache__
+2025-11-26 09:27:14.747 [info] [Info  - 9:27:14 AM] (15776) Auto-excluding **/.*
+2025-11-26 09:27:14.750 [info] [Info  - 9:27:14 AM] (15776) Assuming Python version 3.12.3.final.0
+2025-11-26 09:27:14.813 [info] [Info  - 9:27:14 AM] (15776) Found 7 source files
+2025-11-26 09:27:14.958 [info] [Info  - 9:27:14 AM] (15776) Setting environmentName for service "<default>": "3.12.3 (dolfinx-env venv)"
+2025-11-26 09:27:14.960 [info] [Info  - 9:27:14 AM] (15776) No include entries specified; assuming vscode-chat-code-block://f9d74e67-7db2-4d75-94c9-436281e45ae3/
+2025-11-26 09:27:14.961 [info] [Info  - 9:27:14 AM] (15776) Auto-excluding **/node_modules
+2025-11-26 09:27:14.966 [info] [Info  - 9:27:14 AM] (15776) Auto-excluding **/__pycache__
+2025-11-26 09:27:14.967 [info] [Info  - 9:27:14 AM] (15776) Auto-excluding **/.*
+2025-11-26 09:27:14.971 [info] [Info  - 9:27:14 AM] (15776) Assuming Python version 3.12.3.final.0
+2025-11-26 09:27:14.977 [info] [Error - 9:27:14 AM] (15776) File or directory "vscode-chat-code-block://f9d74e67-7db2-4d75-94c9-436281e45ae3/" does not exist.
+2025-11-26 09:27:14.981 [info] [Info  - 9:27:14 AM] (15776) No source files found.
+2025-11-26 09:27:15.011 [info] [Info  - 9:27:15 AM] (15776) Setting environmentName for service "<default>": "3.12.3 (dolfinx-env venv)"
+2025-11-26 09:27:15.015 [info] [Info  - 9:27:15 AM] (15776) No include entries specified; assuming vscode-chat-code-block://9ab6db43-ac5b-4b29-98bf-78f80ffa8b39/
+2025-11-26 09:27:15.016 [info] [Info  - 9:27:15 AM] (15776) Auto-excluding **/node_modules
+2025-11-26 09:27:15.018 [info] [Info  - 9:27:15 AM] (15776) Auto-excluding **/__pycache__
+2025-11-26 09:27:15.022 [info] [Info  - 9:27:15 AM] (15776) Auto-excluding **/.*
+2025-11-26 09:27:15.025 [info] [Info  - 9:27:15 AM] (15776) Assuming Python version 3.12.3.final.0
+2025-11-26 09:27:15.027 [info] [Error - 9:27:15 AM] (15776) File or directory "vscode-chat-code-block://9ab6db43-ac5b-4b29-98bf-78f80ffa8b39/" does not exist.
+2025-11-26 09:27:15.029 [info] [Info  - 9:27:15 AM] (15776) No source files found.
+2025-11-26 09:27:15.294 [info] [Info  - 9:27:15 AM] (15776) BG: Indexer background runner(8) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2025.6.2/dist (index)
+2025-11-26 09:27:15.569 [info] [Info  - 9:27:15 AM] (15776) BG: Indexing(8) started
+2025-11-26 09:27:16.032 [info] [Info  - 9:27:16 AM] (15776) BG: scanned(8) 175 files over 1 exec env
+2025-11-26 09:27:17.591 [info] [Info  - 9:27:17 AM] (15776) BG: [BG(1)] Long operation: checking: file:///root/Model/RVEm.py (2432ms)
+2025-11-26 09:27:17.593 [info] [Info  - 9:27:17 AM] (15776) BG: [BG(1)] Long operation: analyzing: file:///root/Model/RVEm.py (3016ms)
+2025-11-26 09:27:17.600 [info] [Info  - 9:27:17 AM] (15776) BG: indexed(8) 175 files over 1 exec env
+2025-11-26 09:27:17.600 [info] [Info  - 9:27:17 AM] (15776) BG: Indexing finished(8).
+2025-11-26 09:27:17.604 [info] [Info  - 9:27:17 AM] (15776) BG: [BG(1)] Long operation: analyzing: file:///root/Model/rveElasticityDamage.py (2074ms)

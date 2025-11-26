@@ -1,0 +1,725 @@
+<?xml version="1.0"?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="3.0" xmlns:xi="https://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid Name="RVE_mesh" GridType="Uniform">
+      <Topology TopologyType="Quadrilateral" NumberOfElements="10000" NodesPerElement="4">
+        <DataItem Dimensions="10000 4" NumberType="Int" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Mesh/RVE_mesh/topology</DataItem>
+      </Topology>
+      <Geometry GeometryType="XYZ">
+        <DataItem Dimensions="10201 3" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Mesh/RVE_mesh/geometry</DataItem>
+      </Geometry>
+    </Grid>
+    <Grid Name="c_n" GridType="Collection" CollectionType="Temporal">
+      <Grid Name="c_n" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0" />
+        <Attribute Name="c_n" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c_n/0</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+    <Grid Name="c" GridType="Collection" CollectionType="Temporal">
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.20000000000000004" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/0_20000000000000004</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.40000000000000019" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/0_40000000000000019</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.60000000000000031" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/0_60000000000000031</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="0.80000000000000049" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/0_80000000000000049</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.0000000000000007" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/1_0000000000000007</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.2000000000000008" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/1_2000000000000008</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.400000000000001" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/1_400000000000001</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.6000000000000012" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/1_6000000000000012</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="1.8000000000000014" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/1_8000000000000014</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.0000000000000013" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/2_0000000000000013</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.1999999999999971" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/2_1999999999999971</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.3999999999999928" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/2_3999999999999928</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.5999999999999885" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/2_5999999999999885</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.7999999999999843" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/2_7999999999999843</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="2.99999999999998" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/2_99999999999998</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.1999999999999758" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/3_1999999999999758</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.3999999999999715" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/3_3999999999999715</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.5999999999999672" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/3_5999999999999672</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.799999999999963" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/3_799999999999963</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="3.9999999999999587" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/3_9999999999999587</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.1999999999999549" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/4_1999999999999549</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.3999999999999506" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/4_3999999999999506</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.5999999999999464" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/4_5999999999999464</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.7999999999999421" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/4_7999999999999421</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="4.9999999999999378" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/4_9999999999999378</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.1999999999999336" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/5_1999999999999336</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.3999999999999293" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/5_3999999999999293</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.599999999999925" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/5_599999999999925</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.7999999999999208" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/5_7999999999999208</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="5.9999999999999165" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/5_9999999999999165</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.1999999999999122" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/6_1999999999999122</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.399999999999908" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/6_399999999999908</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.5999999999999037" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/6_5999999999999037</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.7999999999998995" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/6_7999999999998995</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="6.9999999999998952" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/6_9999999999998952</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.1999999999998909" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/7_1999999999998909</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.3999999999998867" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/7_3999999999998867</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.5999999999998824" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/7_5999999999998824</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.7999999999998781" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/7_7999999999998781</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="7.9999999999998739" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/7_9999999999998739</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.1999999999998696" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/8_1999999999998696</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.3999999999998654" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/8_3999999999998654</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.5999999999998611" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/8_5999999999998611</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.7999999999998568" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/8_7999999999998568</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="8.9999999999998526" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/8_9999999999998526</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="9.1999999999998483" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/9_1999999999998483</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="9.399999999999844" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/9_399999999999844</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="9.5999999999998398" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/9_5999999999998398</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="9.7999999999998355" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/9_7999999999998355</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="9.9999999999998312" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/9_9999999999998312</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="10.199999999999827" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/10_199999999999827</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="10.399999999999823" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/10_399999999999823</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="10.599999999999818" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/10_599999999999818</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="10.799999999999814" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/10_799999999999814</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="10.99999999999981" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/10_99999999999981</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="11.199999999999806" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/11_199999999999806</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="11.399999999999801" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/11_399999999999801</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="11.599999999999797" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/11_599999999999797</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="11.799999999999793" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/11_799999999999793</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="11.999999999999789" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/11_999999999999789</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="12.199999999999784" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/12_199999999999784</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="12.39999999999978" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/12_39999999999978</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="12.599999999999776" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/12_599999999999776</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="12.799999999999772" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/12_799999999999772</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="12.999999999999767" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/12_999999999999767</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="13.199999999999763" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/13_199999999999763</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="13.399999999999759" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/13_399999999999759</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="13.599999999999755" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/13_599999999999755</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="13.79999999999975" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/13_79999999999975</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="13.999999999999746" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/13_999999999999746</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="14.199999999999742" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/14_199999999999742</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="14.399999999999737" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/14_399999999999737</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="14.599999999999733" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/14_599999999999733</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="14.799999999999729" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/14_799999999999729</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="14.999999999999725" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/14_999999999999725</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="15.19999999999972" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/15_19999999999972</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="15.399999999999716" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/15_399999999999716</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="15.599999999999712" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/15_599999999999712</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="15.799999999999708" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/15_799999999999708</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="15.999999999999703" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/15_999999999999703</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="16.199999999999733" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/16_199999999999733</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="16.399999999999764" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/16_399999999999764</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="16.599999999999795" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/16_599999999999795</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="16.799999999999827" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/16_799999999999827</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="16.999999999999858" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/16_999999999999858</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="17.199999999999889" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/17_199999999999889</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="17.39999999999992" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/17_39999999999992</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="17.599999999999952" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/17_599999999999952</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="17.799999999999983" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/17_799999999999983</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="18.000000000000014" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/18_000000000000014</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="18.200000000000045" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/18_200000000000045</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="18.400000000000077" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/18_400000000000077</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="18.600000000000108" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/18_600000000000108</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="18.800000000000139" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/18_800000000000139</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="19.000000000000171" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/19_000000000000171</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="19.200000000000202" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/19_200000000000202</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="19.400000000000233" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/19_400000000000233</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="19.600000000000264" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/19_600000000000264</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="19.800000000000296" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/19_800000000000296</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="c" GridType="Uniform">
+        <xi:include xpointer="xpointer(/Xdmf/Domain/Grid[@GridType='Uniform'][1]/*[self::Topology or self::Geometry])" />
+        <Time Value="20.000000000000327" />
+        <Attribute Name="c" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10201 1" Format="HDF">rve_quad_mesh_Lx1.00_phi30_hydrogen_diffusion_damage_channels.h5:/Function/c/20_000000000000327</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
